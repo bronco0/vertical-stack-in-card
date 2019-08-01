@@ -15,8 +15,6 @@ class VerticalStackInCard extends HTMLElement {
         this.style.background = "var(--paper-card-background-color)";
         this.style.display = "block";
 
-        console.log(config)
-        
         if (config.style) {
           Object.keys(config.style).forEach((k) => {
               this.style[k] = config.style[k];
